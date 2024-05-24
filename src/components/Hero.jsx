@@ -65,7 +65,7 @@ const Hero = ({ name }) => {
               cursor: "",
             }}
             onInit={(typewriter) => {
-              typewriter.changeDelay(50).typeString("Software Engineer").start();
+              typewriter.changeDelay(50).typeString("Frontend Developer").start();
             }}
           />
         </motion.div>
@@ -79,7 +79,7 @@ const Hero = ({ name }) => {
           transition={{ delay: 1, duration: 1.5, ease: "easeInOut" }}
           style={styles.landingImage}
           src={landingImage}
-          alt="Michael Yeates"
+          alt="Turman Nurzhigit"
         />
       </div>
       {/* Displaying social icons */}
